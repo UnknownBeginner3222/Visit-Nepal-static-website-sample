@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My creation</title>
+<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link href='https://fonts.googleaplis.com/css?family-Montserrat:400,700%7CPT+Serif:400,700,400italic'rel='stylesheet'>
+		<link rel="https://fonts.googleapis.com/css?family-Montserrat Open+Sans" rel="stylesheet" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo">
+<style type="text/css">
+
+	/* Use a media query to add a break point at 800px: */
+@media screen and (min-width: 50px) and (max-width:800px) {
+  .head, .main, .box, .text, .li, .footer, .End {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+		#wrapper {
+			background-color: rgba(0,0,0,0.1);
+			width: 100%;
+			height: 85px;
+			text-align: center;
+		}
+		.box{
+			width: 50px;
+			height: 50px;
+			border-radius: 80px;
+			font-family: entypo;
+			color: #212121;
+			background:  gold;
+			text-align: center;
+			line-height: 50px;
+			font-size:  40px;
+			display: inline-block;
+			cursor: pointer;
+			transition: 1s;
+		}
+		.box: hover{
+			color:#fff;
+			transform: scale(1.15);
+			transition: 1s;
+		}
+		#facebook:hover{
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#twitter:hover{
+			background-color: rgb(85, 172, 238);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#google:hover{
+			background-color: rgb(221, 75, 57);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#linkedin:hover{
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		ul li.abc a{
+	background-color: grey;
+}
+	</style>
+
+
+</style>
+</head>
+<body>
+
+<header>
+	<div class="main">
+		<div class="head">
+			<h1>VISIT NEPAL</h1>
+
+
+		</div>
+
+		<ul>
+			<li class="abc"><a href="index.html">HOME</a></li>    
+		    <li><a href="#" class="drop">THINGS TO DO</a>
+		    		<ul>
+		    			<li><a href="Mounteering.html"> MOUNTEERING</a></li>
+		    			<li><a href="Treking.html"> TREKKING</a></li>
+		    			<li><a href="Zipline.html"> ZIP FLYING</a></li>
+		    			<li><a href="Mountain Biking.html"> MOUNTAIN BIKING</a></li>
+		    			<li><a href="Paragliding.html"> PARAGLIDING</a></li>
+		    			<li><a href="Bungee.html"> BUNGEE JUMPING</a></li>
+		    		</ul>
+		    	</li>
+			<li><a href="Gallery.html">GALLERY</a></li>
+			<li><a href="Contact.html">CONTACT US</a></li>
+		<li><a href="#">ABOUT US</a>
+			<ul>
+			<li><a href="whys.html"> Where is Nepal?</a></li>
+			<li><a href="Culture.html"> Culture of Nepal</a></li>
+		</ul>
+</li>
+</ul>
+</div>
+	
+
+
+</header>
+
+  		
+
+
+<!-- SLider part start-->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="Home slider-1.jpg" height="600px" width="100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Home slider-2.jpg" height="600px" width="100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Home slider-3.jpg" height="600px" width="100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Home slider-4.jpg" height="600px" width="100%">
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+
+</div>
+
+
+
+
+
+
+<!--Start of slider-->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<!--end of slider-->
+
+
+
+<hr>
+<div class="efds">
+	<h1>Welcome To Our Website VISIT NEPAL</h1><br><hr>
+	<p>
+Welcome visitors to celebrate the year 2020 which is chosen as national tourism year of Nepal after the year 2011 which was the primary authority tourism year of new Federal Democratic Republic of Nepal. The government and tourism department of Nepal authoritatively reported that Nepal will take year2020 as "Visit Nepal", a year committed to tourism industry of Nepal with vision of making a reasonable brand picture of Nepal as travel and vacationer destination, backing up the tourism foundations of Nepal, enhance the growth of tourism industry, and enhance locale tourism as supportable industry. The legislature has wanted to accommodate more than one million visitors amid the year of “Visit Nepal 2020”.
+<br>
+The government has formally initiated the open connection program for Visit Nepal Year 2020 for the arrangements and approach starting from the year 2016/2017 to reinforce and give a decent foundation for the year 2020.</p></p></div>
+</div>
+<hr>
+
+
+<!--Slider part -->
+<div>
+<div class="slide">
+</div>
+<!--Slider part end-->
+<hr>
+
+<div id="wrapper">
+	<h1> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Support us on::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</h1><!--82::-->
+		<div class="box" id="facebook">&#62220;</div>
+		<div class="box" id="twitter">&#62217;</div>
+		<div class="box" id="google">&#62223;</div>
+		<div class="box" id="linkedin">&#62232;</div>
+</div>
+
+<div class="footer">
+	<div class="footer_1">
+		<h1><B><u>Get in touch</u></B></h1><hr>
+		<br>
+		<p><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>visitnepal.com.np<br>
+		<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i> Email: visitnepal00@gmail.com.np<br>
+		<i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i> Phone No.: +977-9849497787 <br>or +977-9849497717</p>
+		</div>
+			<div class="footer_2">
+					<h1><B><u>Quick link</u></B></h1><hr>
+					<p>
+					<br>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="Gallery.html">GALLERY</a><hr></li><br>
+					<div class="footer-2a">
+					OTHERS SERVICES:
+					<li><a href="Bungee.html">BUNGEE JUMPING</a></li>
+					<li><a href="Mountain Biking.html">MOUNTAIN BIKING</a></li>
+					<li><a href="Mounteering.html">MOUNTEERING</a></li>
+					<li><a href="Paragliding.html">PARAGLIDING</a></li>
+					<li><a href="Treking.html">TREKKING</a></li>
+					<li><a href="Zipline.html">ZIPLINE</a></li>
+				</div>
+					</p>
+					</div>
+					<div class="footer_3">
+						<h1><B><u>
+						Quick Message</u></B></h1><hr>
+						<label>
+						 <div align="center">
+    						<input type="text" name="textfield" size="15" style="font-size:10pt;" placeholder="First Name"/>
+	 						<input type="text" name="textfield2" size="15" style="font-size:10pt;" placeholder="Last Name"/>
+     						</div>
+     					</label><br>
+    						<div align="center">
+    						<input type="text" name="textfield3" size="15" style="font-size:10pt;" placeholder="Your Email"/>
+    						<input type="text" name="textfirld4" size="15" style="font-size:10pt;" placeholder="Your Number"/>
+    						</div><br>
+    				   	    <div align="center">
+								<textarea rows="3" cols="40" placeholder="Your Message">
+								</textarea>
+    						</div>
+    						 <form id="form2" name="form2" method="post" action="">
+ 								<div align="center">
+  							    <button id="button"><a href="Send.html">SEND</a></button>
+
+   								</div>
+ 							</form>
+					</div>
+				</div>
+<!--Ending part-->
+<div class="End">
+	<div class="End-1">
+	@2019. www.visitnepal.com, All Rights Reserved</div>
+	<div class="End-2"> Design & Developed by: Rakesh, Ritu and Roshan
+</div>
+</div>
+<!--End-->
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>form</title>
+<link rel="stylesheet" type="text/css" href="form.css">
+<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo">
+<style>
+
+	/* Use a media query to add a break point at 800px: */
+@media screen and (min-width: 50px) and (max-width:800px) {
+  .head, .main, .box, .text, .li, .footer, .End {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+ body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: border-box;
+	outline: none !important;
+	}
+
+.login-page{
+	background-image: url("treking-1.jpg");
+	background-size: cover;
+	height:100vh; 
+}
+.login-page .box{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	flex-direction: column;
+
+}
+.login-page .box .form-head h2{
+	text-align: center;
+	margin: 10px 0px 20px;
+	color: black;
+}
+.login-page .box .form-body {
+	display: flex;
+	flex-direction: column;
+
+}
+.login-page .box .form-body input{
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid skyblue;
+	width: 100%
+	background-color:transparent;
+	border-radius: 20px;
+	text-align: center;
+	color: black;
+
+}
+.login.page .box .form-body input::placeholder{
+	color: #ffffff;
+}
+.login.page .box .form-footer {
+	text-align: center;
+
+}
+.login.page .box .form-footer button{
+	margin-top: 10px;
+	height: 40px;
+	border-radius: 20px;
+	padding: 0px 50px;
+	color: #ffffff;
+	background-color: blue;
+	border: none;
+
+}
+
+.style1{
+	font-size: 35px;
+}
+
+.form-head h1{
+	font-size: 50px;
+}
+.form-footer p{
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<section class="login-page">
+		<form>
+			<div class="box">
+				<div class="form-head">
+					<h1>Feedback Form</h1>
+				</div>
+				<div class="form-body">
+					<input type="text" placeholder="Enter Full name" required/>
+					<input type="E-mail" placeholder="E-mail Address" required/>
+					<input type="textarea" placeholder="message">
+
+				</div>
+				<div class="form-footer">
+<p>
+			<button class="style1">SEND</button>
+			<button class="style1"><a href="index.html"> EXIT</a></button></p>
+				</div>
+			</div>
+
+		</form>
+		
+	</section>
+</body>
+	

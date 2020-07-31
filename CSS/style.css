@@ -1,0 +1,233 @@
+
+/*End of link icon*/
+
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	box-sizing:border-box;
+}
+
+header{
+	background-image: url("village.jpg");
+	height: 15.4vh;
+	background-size: cover;
+	background-position: center;
+	background-image: justify;
+
+}
+		ul{
+
+			margin:0;
+			padding: 0;
+			list-style: none;
+			margin-right: 30px;
+		}
+		ul li{
+			float:left;
+			width: 262.6px;
+			height: 40px;
+			background-color: rgba(0,0,0,0.5);
+			opacity: .9;
+			line-height: 40px;
+			text-align: center;
+			font-size: 20px;
+			font-family: 'Montserrat',sans-serif;
+			transition: 0.6 ease;
+		}
+		ul li a {
+			text-decoration: none;
+			color: white;
+			  background-color: black;
+			display:block;
+		}
+		ul li a:hover{
+			background-color: green;
+		}
+		ul li ul li{
+			display: none;
+		}
+		ul li:hover ul li{
+			display: block;
+		}
+
+.head{
+	float: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	font-family:'Montserrat', sans-serif;
+}
+.head h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+.main{
+	width:100% 100%;
+	height:166px;
+	background-color: rgba(0,0,0,0.5);	
+}
+
+
+.slideshow-container{
+	text-align: center;
+	margin-left: auto;
+}
+
+
+.Advertisement-1{
+	background-color: rgba(0,0,0,0.1);
+	width: 100%;
+	height: 88px;
+}
+.Advertisement-1 img {
+	height: 100%;
+}
+.marquee {
+	 height: 88px;
+	 transition: 1s;
+}
+
+
+
+/* Second Slider */
+
+.slide {
+	padding:6px;
+	width: 100%;
+	height: 25vh;
+	background-image: url(../1.jpg);
+	background-size: 100% 100%;
+	animation-name: slide;
+	animation-duration: 7s;
+	animation-delay: .2s;
+	animation-iteration-count: infinite;
+	background-color: rgba(0,0,0,0.1);
+	transition: all .4s ease-out;
+}
+@keyframes slide{
+	25%{
+		background-image: url(../2.jpg);
+	}
+	50%{
+		background-image: url(../3.jpg);
+	}
+	75%{
+		background-image: url(../4.jpg);
+	}
+	100%{
+		background-image: url(../1.jpg);
+	}
+}
+/*End of slider*/
+
+/*Paragraph*/
+.efds{
+	padding:6px;
+	text-align: justify-all;
+	font-size: 25px;
+	font-family: times new roman;
+	background-color: rgba(0,0,0,0.1);
+}
+.efds h1 {
+	padding:6px;
+	text-align: center;
+	font-size: 36px;
+	font-family: times new roman;
+}
+
+
+/*End of paragraph*/
+
+
+
+
+
+/*footer part*/
+
+.footer
+	{
+	position: absolute;
+ 	width: 100%;
+ 	height: 250px;
+ 	margin-bottom: 10px;
+ 	background-color: rgba(0,0,0,0.6);
+   	display: flex;
+}
+
+.footer_1{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: left;
+
+}
+.footer_1 p{
+	padding: 20px 30px;
+}
+.footer_1 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+
+.footer_2 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+
+}
+
+.footer_2{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: left;
+	
+}
+.footer-2a
+{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: justify;
+	
+}
+
+.footer_3{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: center;
+}
+.footer_3 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+/*End of footer*/
+
+.End{
+	background-color: rgba(0,0,0,0.2);
+	position: relative;
+	bottom: -218px;
+	display:flex;
+	padding: 6px;
+}
+
+.End-1{
+	flex: 1;
+	padding: 6px;
+	font-size: 13px;
+	font-family: times new roman;
+	text-align: left;
+}
+.End-2{
+	flex: 1;
+	padding:6px;
+	font-family: times new roman;
+	font-size: 13px;
+	text-align: right;
+}
+/*End of footer Part*/

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My creation</title>
+<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link href='https://fonts.googleaplis.com/css?family-Montserrat:400,700%7CPT+Serif:400,700,400italic'rel='stylesheet'>
+		<link rel="https://fonts.googleapis.com/css?family-Montserrat Open+Sans" rel="stylesheet" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo">
+<style>
+
+
+
+	/* Use a media query to add a break point at 800px: */
+@media screen and (min-width: 50px) and (max-width:800px) {
+  .head, .main, .box, .text, .li, .footer, .End {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+#wrapper {
+			background-color: rgba(0,0,0,0.1);
+			width: 100%;
+			height: 85px;
+			text-align: center;
+		}
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	box-sizing:border-box;
+}
+
+header{
+	background-image: url("village.jpg");
+	height: 15.4vh;
+	background-size: cover;
+	background-position: center;
+	background-image: justify;
+
+}
+		ul{
+
+			margin:0;
+			padding: 0;
+			list-style: none;
+			margin-right: 30px;
+		}
+		ul li{
+			float:left;
+			width: 262.6px;
+			height: 40px;
+			background-color: rgba(0,0,0,0.5);
+			opacity: .9;
+			line-height: 40px;
+			text-align: center;
+			font-size: 20px;
+			font-family: 'Montserrat',sans-serif;
+			transition: 0.6 ease;
+		}
+		ul li a {
+			text-decoration: none;
+			color: white;
+			  background-color: black;
+			display:block;
+		}
+		ul li a:hover{
+			background-color: green;
+		}
+		ul li ul li{
+			display: none;
+		}
+		ul li:hover ul li{
+			display: block;
+		}
+				ul li.abc a{
+	background-color: grey;
+}
+
+.head{
+	float: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	font-family:'Montserrat', sans-serif;
+}
+.head h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+.main{
+	width:100% 100%;
+	height:100px;
+	background-color: rgba(0,0,0,0.5);	
+}
+
+
+/* Style the icon bar links */
+
+		.box{
+			width: 50px;
+			height: 50px;
+			border-radius: 80px;
+			font-family: entypo;
+			color: #212121;
+			background:  gold;
+			text-align: center;
+			line-height: 50px;
+			font-size:  40px;
+			display: inline-block;
+			cursor: pointer;
+			transition: 1s;
+		}
+		.box: hover{
+			color:#fff;
+			transform: scale(1.15);
+			transition: 1s;
+		}
+		#facebook:hover{
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#twitter:hover{
+			background-color: rgb(85, 172, 238);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#google:hover{
+			background-color: rgb(221, 75, 57);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#linkedin:hover{
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+/*End of icon */
+
+
+/*Paragraph*/
+.text{
+	display: flex;
+	text-align: justify;
+	text-justify:inter-word;
+	width: 100%
+}
+.text-1{
+	padding:8px;
+	display: flex 1;
+	width:30%;
+	background-color: rgba(0,0,0,0.1);
+}
+.text-1 h1{
+	padding:8px;
+	font-size: 36px;
+	font-family: Times New Roman;
+}
+.text-1 p{
+	padding:8px;
+	font-family: Times New Roman;
+	font-size: 30px;
+}
+.text-2{
+	padding:6px;
+	width: 70%;
+	display: flex 1;
+	background-color: rgba(0,0,0,0.1);
+}
+.text-2 h1{
+	padding:6px;
+	font-size: 40px;
+	font-family: Times New Roman;
+}
+.text-2 p{
+	padding:6px;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
+/*End of Paragraph*/
+.li li{
+	font-family: Times New Roman;
+	font-size: 28px;
+	display: inline-flex;
+}
+
+/*footer part*/
+
+.footer
+	{
+	position: absolute;
+ 	width: 100%;
+ 	height: 250px;
+ 	margin-bottom: 10px;
+ 	background-color: rgba(0,0,0,0.6);
+   	display: flex;
+}
+
+.footer_1{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: left;
+
+}
+.footer_1 p{
+	padding: 20px 30px;
+}
+.footer_1 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+
+.footer_2 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+
+}
+
+.footer_2{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: left;
+	
+}
+.footer-2a
+{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: justify;
+	
+}
+
+.footer_3{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: center;
+}
+.footer_3 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+/*End of footer*/
+
+.End{
+	background-color: rgba(0,0,0,0.2);
+	position: relative;
+	bottom: -218px;
+	display:flex;
+	padding: 6px;
+}
+
+.End-1{
+	flex: 1;
+	padding: 6px;
+	font-size: 13px;
+	font-family: times new roman;
+	text-align: left;
+}
+.End-2{
+	flex: 1;
+	padding:6px;
+	font-family: times new roman;
+	font-size: 13px;
+	text-align: right;
+}
+/*End of footer Part*/
+
+
+</style>
+</head>
+<body>
+<header>
+	<div class="main">
+		<div class="head">
+			<h1>VISIT NEPAL</h1>
+		</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>    
+		    <li><a href="#" class="drop">THINGS TO DO</a>
+		    		<ul>
+		    			<li><a href="Mounteering.html"> MOUNTEERING</a></li>
+		    			<li class="abc"><a href="Treking.html"> TREKKING</a></li>
+		    			<li><a href="Zipline.html"> ZIP FLYING</a></li>
+		    			<li><a href="Mountain Biking.html"> MOUNTAIN BIKING</a></li>
+		    			<li><a href="Paragliding.html"> PARAGLIDING</a></li>
+		    			<li><a href="Bungee.html"> BUNGEE JUMPING</a></li>
+		    		</ul>
+		    	</li>
+			<li><a href="Gallery.html">GALLERY</a></li>
+			<li><a href="Contact.html">CONTACT US</a></li>
+		<li><a href="#">ABOUT US</a>
+			<ul>
+			<li><a href="whys.html"> Where is Nepal?</a></li>
+			<li><a href="Culture.html"> Culture of Nepal</a></li>
+		</ul>
+</li>
+</ul>
+</div>
+</header>
+<!--End of header-->
+
+
+<div class="text">
+	<div class="text-1">
+		<br><br>
+	<h1><b><u> More Information</u></b></h1><br><br>
+	<div class="li">
+		<li><a href="More Information-3.html"><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i><b>Travel Information</b></a></li><br><br><br>
+		
+		<li><a href="More Information-4.html"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i> <b>When TO Travel</b></a></li><br><br><br>
+		<li><a href="More Information-5.html"><i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i> <b>Phone</b></a></li><br><br><br>
+		<li><a href="More Information-1.html"><i class="fa fa-money fa-lg fa-fw" aria-hidden="true"></i> <b>Payment Option</b></a></li><br><br><br>
+		<li><a href="More Information-2.html"><i class="fa fa-book fa-lg fa-fw" aria-hidden="true"></i> <b>Terms & Condition</b></a></li></b>
+	</div>
+</div>
+	<div class="text-2">
+		<br><br>
+					<h1><b>Trekking in Nepal</b></h1><hr><br>
+					<p>Nepal has attracted trekkers from around the world since the 1960s when Col Jimmy Robert's organized the first commercial trek. Trekking has been the leading activity of tourists in Nepal and thousands take to the Himalayas, some doing a few days of hiking while others take on a month long trek through valleys and high mountain passes. Two of the most popular treking regions are the Everest and Annapurna where many different trails can be followed while the other popuar treks are in the Langtang and Kanchenjunga regions. The most challenging is the Great Himalayan Trails, an extensive trail system that covers Nepal from Humla and Darchula in the west to Kanchenjunga in the east. The diversity of trekking trails in Nepal cannot be found in any other part;of the world. In fact, the lowest point in Nepal is 59 m above sea-level in the Tarai region while the highest point is Everest 8,848 m above sea-level, the two points being only 200 kilometres apart as the crow flies.</p><br>
+
+					<p>The majority of visitors to Nepal come in via the Tribuvan International Airport in Kathmandu. It is in Kathmandu that trekkers need to acquire their permits and other documentation, either from a trekking agent or from the appropriate offices. These documents will be checked along the trekking route. For those with little time on hand there are half-day hikes from Kathmandu to witness breathtaking Himalayan views.</p>
+
+					<p><img alt="" src="treking-1.jpg" style="height: 400px; width:100%"></p>
+
+
+					<p>Trekking in Nepal today is completely different to that of the 1960s. In all the main trekking areas, the National Parks and Conservation Areas lodges have been established where trekkers can find accommodation, food and meet other trekkers and locals along the way. The majority of the trails are well maintained and in many cases are sign-posted.</p>
+
+					<img alt="" src="treking-2.jpg" style="height:400px; width:100%">
+
+					<p>The lodges are well appointed and have facilities for charging batteries and the larger villages often have email facilities. The length, the difficulty and timing of the treks vary greatly and to add to that once outside of the main trekking areas transport becomes more problematic and often involves at least two journeys made on domestic scheduled flights. Many treks in Nepla begin with a domestic flight to the starting point and many are in remote areas with no road access. Several days of trekking is required to reach the higher mountain areas from the local centers of population and administration.</p>
+
+					<img alt="" src="treking-3.jpg" style="height: 400px; width:100%">
+
+					<p>Nepal has six distinct and diverse vegetation zones ranging from Tropical below a 1,000m through Sub-tropical 100m - 200m, Lower Temperate 1,700 m - 2,700 m, Upper Temperate 2,400m - 3,000m, Sub-alpine 3,000m - 4,000m and Alpine 4,000m to the snowline above the snowline it is a Himalaya tundra like wilderness. The higher altitutes are home to the elusive Snow leopard, Hamalayan Thar, Musk deer and other rare species.</p><br>
+
+					<p>Although the popular treks in Kanchenjunga, Everest, Manaslu, Annapurna are able to provide lodge accommodation the less frequented treks in those areas and also in other areas west of Annapurna will generally require camping style trek support.</p>
+
+					<img alt="" src="treking-4.jpg" style="height:400px; width:100%">
+
+					<p>Trekkers can find a trail any time of year. The southern areas of Nepal receive higher levels of precipitation. However, some routes along the Great Himalaya Trails lie in the rain shadow, a dry area on the leeward side of a mountain namely Mustang to the north of Annapurna and Manaslu, Dolpo to the north of Dhaulagiri and the far west of Nepal to the north of Saipal Himal. Post monsoon the weather tends to be clearer. Winter is good but colder with shorter days and spring can be affected by seasonal rain and snow storms. Summer is short and is quickly followed by the monsoons. Monsoon treks are usually in the dry Manamg and Mustang areas.</p>
+
+					<p>However, the rains don't pour 24 hours a day and they bring spectacular flowers to life. It is also the perfect time to consider one of the regions in the rain shadow which typically feature a more barren Tibetan type scenery as opposed to the greenness on;other side.</p>
+
+					<img alt="" src="treking-5.jpg"style="height: 400px; width:100%">
+
+					<p>It is important for tourists to know that the main income generating activity of the people from the hill regions is tourism, and they typically earn wages working as trekking porters or guides. Hiring a porter does not mean that you are weak, it means you value the Nepali culture, you are providing an extended Nepali family with an income and at the same time you are making a friend and trekking with a local person who is well versed in the local cultures, festivals, and all the other issues that can turn a good trek into an outstanding experience of a life time.</p>
+
+					<p>It is possible to trek alone or without a Nepali guide, but you wuld not know what to do in a major storm, zero visibility and plunging temperatures at possibly 5,000m? Make sure you have all the permits required, and be environmentally and culturally aware.</p><br><br>
+				</div>
+			</div>
+		<hr>
+
+<div id="wrapper">
+	<h1> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Support us on::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</h1><!--82::-->
+		<div class="box" id="facebook">&#62220;</div>
+		<div class="box" id="twitter">&#62217;</div>
+		<div class="box" id="google">&#62223;</div>
+		<div class="box" id="linkedin">&#62232;</div>
+</div>
+
+<div class="footer">
+	<div class="footer_1">
+		<h1><B><u>Get in touch</u></B></h1><hr>
+		<br>
+		<p><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>visitnepal.com.np<br>
+		<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i> Email: visitnepal00@gmail.com.np<br>
+		<i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i> Phone No.: +977-9849497787 <br>or +977-9849497717</p>
+		</div>
+			<div class="footer_2">
+					<h1><B><u>Quick link</u></B></h1><hr>
+					<p>
+					<br>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="Gallery.html">GALLERY</a><hr></li><br>
+					<div class="footer-2a">
+					OTHERS SERVICES:
+					<li><a href="Bungee.html">BUNGEE JUMPING</a></li>
+					<li><a href="Mountain Biking.html">MOUNTAIN BIKING</a></li>
+					<li><a href="Mounteering.html">MOUNTEERING</a></li>
+					<li><a href="Paragliding.html">PARAGLIDING</a></li>
+					<li><a href="Treking.html">TREKKING</a></li>
+					<li><a href="Zipline.html">ZIPLINE</a></li>
+				</div>
+					</p>
+					</div>
+					<div class="footer_3">
+						<h1><B><u>
+						Quick Message</u></B></h1><hr>
+						<label>
+						 <div align="center">
+    						<input type="text" name="textfield" size="15" style="font-size:10pt;" placeholder="First Name"/>
+	 						<input type="text" name="textfield2" size="15" style="font-size:10pt;" placeholder="Last Name"/>
+     						</div>
+     					</label><br>
+    						<div align="center">
+    						<input type="text" name="textfield3" size="15" style="font-size:10pt;" placeholder="Your Email"/>
+    						<input type="text" name="textfirld4" size="15" style="font-size:10pt;" placeholder="Your Number"/>
+    						</div><br>
+    				   	    <div align="center">
+								<textarea rows="3" cols="40" placeholder="Your Message">
+								</textarea>
+    						</div>
+    						 <form id="form2" name="form2" method="post" action="">
+ 								<div align="center">
+  							    <button id="button"><a href="Send.html">SEND</a></button>
+   								</div>
+ 							</form>
+					</div>
+				</div>
+<!--Ending part-->
+<div class="End">
+	<div class="End-1">
+	@2019. www.visitnepal.com, All Rights Reserved</div>
+	<div class="End-2"> Design & Developed by: Rakesh, Ritu and Roshan
+</div>
+</div>
+<!--End-->
+</div>
+
+
+</body>
+</html>

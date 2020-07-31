@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My creation</title>
+<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleaplis.com/css?family-Montserrat:400,700%7CPT+Serif:400,700,400italic'rel='stylesheet'>
+		<link rel="https://fonts.googleapis.com/css?family-Montserrat Open+Sans" rel="stylesheet" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo">
+<style type="text/css">
+		
+		
+
+	/* Use a media query to add a break point at 800px: */
+@media screen and (min-width: 50px) and (max-width:800px) {
+  .head, .main, .box, .text, .li, .footer, .End {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+		#wrapper {
+			background-color: rgba(0,0,0,0.1);
+			width: 100%;
+			height: 85px;
+			text-align: center;
+		}
+
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	box-sizing:border-box;
+}
+
+header{
+	background-image: url("village.jpg");
+	height: 15.4vh;
+	background-size: cover;
+	background-position: center;
+	background-image: justify;
+
+}
+		ul{
+
+			margin:0;
+			padding: 0;
+			list-style: none;
+			margin-right: 30px;
+		}
+		ul li{
+			float:left;
+			width: 262.6px;
+			height: 40px;
+			background-color: rgba(0,0,0,0.5);
+			opacity: .9;
+			line-height: 40px;
+			text-align: center;
+			font-size: 20px;
+			font-family: 'Montserrat',sans-serif;
+			transition: 0.6 ease;
+		}
+		ul li a {
+			text-decoration: none;
+			color: white;
+			  background-color: black;
+			display:block;
+		}
+		ul li a:hover{
+			background-color: green;
+		}
+		ul li ul li{
+			display: none;
+		}
+		ul li:hover ul li{
+			display: block;
+		}
+
+.head{
+	float: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	font-family:'Montserrat', sans-serif;
+}
+.head h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+.main{
+	width:100% 100%;
+	height:100px;
+	background-color: rgba(0,0,0,0.5);	
+}
+
+
+/* Style the icon bar links */
+
+		.box{
+			width: 50px;
+			height: 50px;
+			border-radius: 80px;
+			font-family: entypo;
+			color: #212121;
+			background:  gold;
+			text-align: center;
+			line-height: 50px;
+			font-size:  40px;
+			display: inline-block;
+			cursor: pointer;
+			transition: 1s;
+		}
+		.box: hover{
+			color:#fff;
+			transform: scale(1.15);
+			transition: 1s;
+		}
+		#facebook:hover{
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#twitter:hover{
+			background-color: rgb(85, 172, 238);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#google:hover{
+			background-color: rgb(221, 75, 57);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#linkedin:hover{
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+/*End of icon */
+.li li{
+	font-family: Times New Roman;
+	font-size: 28px;
+	display: inline-flex;
+}
+.li li.abc a{
+	background-color: grey;
+}
+
+		
+/*Paragraph*/
+.text{
+	display: flex;
+	text-align: justify;
+	text-justify:inter-word;
+	width: 100%
+}
+.text-1{
+	padding:8px;
+	display: flex 1;
+	width:30%;
+	background-color: rgba(0,0,0,0.1);
+}
+.text-1 h1{
+	padding:8px;
+	font-size: 36px;
+	font-family: Times New Roman;
+}
+.text-1 p{
+	padding:8px;
+	font-family: Times New Roman;
+	font-size: 30px;
+}
+.text-2{
+	padding:6px;
+	width: 70%;
+	display: flex 1;
+	background-color: rgba(0,0,0,0.1);
+}
+.text-2 h1{ 
+	padding:6px;
+	font-size: 40px;
+	font-family: Times New Roman;
+}
+.text-2 p{
+	padding:6px;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
+/*End of Paragraph*/
+
+/*footer part*/
+
+.footer
+	{
+	position: absolute;
+ 	width: 100%;
+ 	height: 250px;
+ 	margin-bottom: 10px;
+ 	background-color: rgba(0,0,0,0.6);
+   	display: flex;
+}
+
+.footer_1{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: left;
+
+}
+.footer_1 p{
+	padding: 20px 30px;
+}
+.footer_1 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+
+.footer_2 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+
+}
+
+.footer_2{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: left;
+	
+}
+.footer-2a
+{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: justify;
+	
+}
+
+.footer_3{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: center;
+}
+.footer_3 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+/*End of footer*/
+
+.End{
+	background-color: rgba(0,0,0,0.2);
+	position: relative;
+	bottom: -218px;
+	display:flex;
+	padding: 6px;
+}
+
+.End-1{
+	flex: 1;
+	padding: 6px;
+	font-size: 13px;
+	font-family: times new roman;
+	text-align: left;
+}
+.End-2{
+	flex: 1;
+	padding:6px;
+	font-family: times new roman;
+	font-size: 13px;
+	text-align: right;
+}
+/*End of footer Part*/
+
+</style>
+</head>
+<body>
+<header>
+	<div class="main">
+		<div class="head">
+			<h1>VISIT NEPAL</h1>
+		</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>    
+		    <li><a href="#" class="drop">THINGS TO DO</a>
+		    		<ul>
+		    			<li><a href="Mounteering.html"> MOUNTEERING</a></li>
+		    			<li><a href="Treking.html"> TREKKING</a></li>
+		    			<li><a href="Zipline.html"> ZIP FLYING</a></li>
+		    			<li><a href="Mountain Biking.html"> MOUNTAIN BIKING</a></li>
+		    			<li><a href="Paragliding.html"> PARAGLIDING</a></li>
+		    			<li><a href="Bungee.html"> BUNGEE JUMPING</a></li>
+		    		</ul>
+		    	</li>
+			<li><a href="Gallery.html">GALLERY</a></li>
+			<li><a href="Contact.html">CONTACT US</a></li>
+		<li><a href="#">ABOUT US</a>
+			<ul>
+			<li><a href="whys.html"> Where is Nepal?</a></li>
+			<li><a href="Culture.html"> Culture of Nepal</a></li>
+		</ul>
+</li>
+</ul>
+</div>
+</header>
+<!--End of header-->
+
+
+<div class="text">
+	<div class="text-1">
+		<br><br>
+	<h1><b><u> More Information</u></b></h1><br><br>
+	<div class="li">
+		<li><a href="More Information-3.html"><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i><b>Travel Information</b></a></li><br><br><br>
+		
+		<li><a href="More Information-4.html"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i> <b>When TO Travel</b></a></li><br><br><br>
+		<li><a href="More Information-5.html"><i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i> <b>Phone</b></a></li><br><br><br>
+		<li><a href="More Information-1.html"><i class="fa fa-money fa-lg fa-fw" aria-hidden="true"></i> <b>Payment Option</b></a></li><br><br><br>
+		<li class="abc"><a href="More Information-2.html"><i class="fa fa-book fa-lg fa-fw" aria-hidden="true"></i> <b>Terms & Condition</b></a></li></b>
+	</div>
+</div>
+<div class="text-2">
+	<br><br>
+<h1><b>Terms & Condition</b></h1><hr><br>
+	<p>Advance booking for the trips help us to plan better, to complete the local formalities, secure the flight and hotel bookings and to provide you a trouble-free holiday. The advance Payments can be made through the western union money transfer or by depositing directly to the company's dollar account. We also accept cash or traveler cheques. The clients are requested to pay at least 10% of the total cost in order to book the trip. If the trek is shortened for any reasons beyond our control, Yatra Nepal is not liable for any refunds of the amount paid earlier.</p><br>
+<p><strong> Insurance:</strong><br>Every one who plans to trek with us must have individual travel insurance. You are also strongly recommended to adopt a policy which also provides cancellation and extra baggage fees. Expedition members with a family are advised to make sure that they will be responsibly provided for in case of accidents.</p><br>
+<p><strong>Altitude Sickness:</strong><br>This can become a serious problem. It results through failure of the body to adapt to high altitude. It can affect anyone regardless of age or fitness. It usually occurs once you pass 1800 metres above sea level. In general, you should not ascend more than 300 metres a day after you reach the height of 3000 to 4000 meres until you have acclimatized. Poor acclimatization results in headaches, nausea, sleeplessness, irregular breathing and swelling of fingers and glands. The only way to fight altitude sickness is to descend as fast as possible. A descent of 1000 metres normally brings about rapid recovery. We have planned our routes carefully to ensure proper acclimatization. Cases of mountain sickness are rare on our trips. However, we stress that anyone who develops a headache at high altitude to consider it as an early symptom of mountain sickness and inform the trek leader immediately. People may have headaches for other reasons, but the possibility of mountain sickness cannot be ignored.</p><br>
+<p><strong>Clothing:</strong><br>Boots must be comfortable and they must support the ankle. It is essential to break in new boots well in advance of your trek. They should be hiking, not mountaineering boots.</p>
+<p>A water and wind proof jacket is essential for high altitude and lengthy treks. These can be hired at reasonable cost in Kathmandu but there are no equipment hire shops in Tibet . A thick pullover is essential for early mornings and evenings. Track suit is highly recommended. T- Shirts are ideal for everyday wear at lower altitudes; two or three are enough for one trek. Once warm, but light shirts is good for high altitude.</p><br>
+<p><strong>Accomodation:</strong><br>In Kathmandu there is a very wide variety of accommodation from rock bottom flea pits to five star international Hotels. We use various types of Hotel accommodation as desired by our clients, from tourist standard to Five Star Deluxe facilities, depending upon the clients budget and preference.</p>
+<p>Most of the hotels in Kathmandu are located about five to eight kilometers from the Tribhuvan International Airport . For Hotel accommodation outside Kathmandu , such as in Pokhara, Lukla, Biratnagar, Nepalgunj recognized tourist standard hotels will be used for transit purposes.</p><br>
+<p><strong>Passport, Visa Trek Permit:</strong><br>You must hold a passport valid for at least 6 months after your departure date. For restricted area's trekking permit, we need to have the passport photocopies with six recent passport size photographs, at least 2 months in advance. Trekking permit will be obtained only after the submission of the passports, Visa, single or double entry as required can be obtained on your arrival in Kathmandu Airport or from the Royal Nepalese Embassy in your Country. The Visas for Tibet we need to have the passport photocopies with four recent passport 6 photographs, at least 2 months in advance.</p><br>
+<p><strong>Private Groups/ Trekking/ Expeditions:</strong><br>We offer competitive discounts on group bookings and can individually tailor itineraries to suit your requirements. If you have any questions or would like further information concerning our treks, do not hesitate to contact us for a detailed itinerary and information.</p><br>
+<p><strong>Trekking Meal Plan:</strong><br>Our cooks are well trained to prepare and serve food hygienically. As per our set menu the cook will prepare delicious food of different dishes, day wise. You will be woken up with hot tea or coffee and with a bowl of hot water for washing.</p><br>
+<p><strong>Personal Baggage:</strong><br>You are allowed to carry a maximum of 20 kgs, baggage on most domestic and international flights and for the trekking we allow you to take 15 kgs of personal gear with the kit bag on lock system. Other gears not needed during the trek can be stored in the hotel or in our head office in Kathmandu . You are also advised to be responsible for your own baggage while you are traveling or trekking to avoid disappointment of loss of personal items.</p><br>
+<p><strong>Cultural Tours:</strong><br>Our most capable and experienced city guide will escort you during all the different city tours and to the cultural heritage tours of Nepal to provide comprehensive explanations in brief. On your request we will provide you, city guides who can speak your language, to make your trips more enjoyable and to understand our culture more deeply.</p><br>
+<p><strong>Transportation:</strong><br>Normally for Kathmandu city we have deluxe coaches for sightseeing and airport transfer. For the Trekking destinations we provide heavy duty vehicles as per the condition of roads, to carry all the equipments along with the clients and our Nepalese crews.</p><br>
+<p><strong>Cost Include and Exclude:</strong><br>Regarding the cost include and Cost excludes it depends upon your package and the payment. Generally those information are provided along with the itinerary and cost schedule as per the programme of the guests.</p><br>
+<p><strong>Remaining things will be notified as per the programme of the guests.</strong><br><br></p> 
+</div>
+</div>
+<hr>
+<div id="wrapper">
+	<h1> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Support us on::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</h1><!--82::-->
+		<div class="box" id="facebook">&#62220;</div>
+		<div class="box" id="twitter">&#62217;</div>
+		<div class="box" id="google">&#62223;</div>
+		<div class="box" id="linkedin">&#62232;</div>
+</div>
+
+
+
+
+<div class="footer">
+	<div class="footer_1">
+		<h1><B><u>Get in touch</u></B></h1><hr>
+		<br>
+		<p><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>visitnepal.com.np<br>
+		<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i> Email: visitnepal00@gmail.com.np<br>
+		<i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i> Phone No.: +977-9849497787 <br>or +977-9849497717</p>
+		</div>
+			<div class="footer_2">
+					<h1><B><u>Quick link</u></B></h1><hr>
+					<p>
+					<br>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="Gallery.html">GALLERY</a><hr></li><br>
+					<div class="footer-2a">
+					OTHERS SERVICES:
+					<li><a href="Bungee.html">BUNGEE JUMPING</a></li>
+					<li><a href="Mountain Biking.html">MOUNTAIN BIKING</a></li>
+					<li><a href="Mounteering.html">MOUNTEERING</a></li>
+					<li><a href="Paragliding.html">PARAGLIDING</a></li>
+					<li><a href="Treking.html">TREKKING</a></li>
+					<li><a href="Zipline.html">ZIPLINE</a></li>
+				</div>
+					</p>
+					</div>
+					<div class="footer_3">
+						<h1><B><u>
+						Quick Message</u></B></h1><hr>
+						<label>
+						 <div align="center">
+    						<input type="text" name="textfield" size="15" style="font-size:10pt;" placeholder="First Name"/>
+	 						<input type="text" name="textfield2" size="15" style="font-size:10pt;" placeholder="Last Name"/>
+     						</div>
+     					</label><br>
+    						<div align="center">
+    						<input type="text" name="textfield3" size="15" style="font-size:10pt;" placeholder="Your Email"/>
+    						<input type="text" name="textfirld4" size="15" style="font-size:10pt;" placeholder="Your Number"/>
+    						</div><br>
+    				   	    <div align="center">
+								<textarea rows="3" cols="40" placeholder="Your Message">
+								</textarea>
+    						</div>
+    						 <form id="form2" name="form2" method="post" action="">
+ 								<div align="center">
+  							    <button id="button"><a href="Send.html">SEND</a></button>
+   								</div>
+ 							</form>
+					</div>
+				</div>
+<!--Ending part-->
+<div class="End">
+	<div class="End-1">
+	@2019. www.visitnepal.com, All Rights Reserved</div>
+	<div class="End-2"> Design & Developed by: Rakesh, Ritu and Roshan
+</div>
+</div>
+<!--End-->
+
+</div>
+
+</body>
+</html>

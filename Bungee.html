@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My creation</title>
+<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleaplis.com/css?family-Montserrat:400,700%7CPT+Serif:400,700,400italic'rel='stylesheet'>
+		<link rel="https://fonts.googleapis.com/css?family-Montserrat Open+Sans" rel="stylesheet" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link  href="http://weloveiconfonts.com/api/?family=entypo" rel="stylesheet">
+<style type="text/css">
+
+	/* Use a media query to add a break point at 800px: */
+@media screen and (min-width: 50px) and (max-width:800px) {
+  .head, .main, .box, .text, .li, .footer, .End {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	box-sizing:border-box;
+}
+
+header{
+	background-image: url("village.jpg");
+	height: 15.4vh;
+	background-size: cover;
+	background-position: center;
+	background-image: justify;
+
+}
+		ul{
+
+			margin:0;
+			padding: 0;
+			list-style: none;
+			margin-right: 30px;
+		}
+		ul li{
+			float:left;
+			width: 262.6px;
+			height: 40px;
+			background-color: rgba(0,0,0,0.5);
+			opacity: .9;
+			line-height: 40px;
+			text-align: center;
+			font-size: 20px;
+			font-family: 'Montserrat',sans-serif;
+			transition: 0.6 ease;
+		}
+		ul li a {
+			text-decoration: none;
+			color: white;
+			  background-color: black;
+			display:block;
+		}
+		ul li a:hover{
+			background-color: green;
+		}
+		ul li ul li{
+			display: none;
+		}
+		ul li:hover ul li{
+			display: block;
+		}
+		ul li.abc a{
+	background-color: grey;
+}
+.head{
+	float: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	font-family:'Montserrat', sans-serif;
+}
+.head h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+.main{
+	width:100% 100%;
+	height:100px;
+	background-color: rgba(0,0,0,0.5);	
+}
+
+
+/* Style the icon bar links */
+#wrapper {
+			background-color: rgba(0,0,0,0.1);
+			width: 100%;
+			height: 85px;
+			text-align: center;
+		}
+		.box{
+			width: 50px;
+			height: 50px;
+			border-radius: 80px;
+			font-family: entypo;
+			color: #212121;
+			background:  gold;
+			text-align: center;
+			line-height: 50px;
+			font-size:  40px;
+			display: inline-block;
+			cursor: pointer;
+			transition: 1s;
+		}
+		.box: hover{
+			color:#fff;
+			transform: scale(1.15);
+			transition: 1s;
+		}
+		#facebook:hover{
+			padding:6px;
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#twitter:hover{
+			background-color: rgb(85, 172, 238);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#gplus:hover{
+			background-color: rgb(221, 75, 57);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+		#linkedin:hover{
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+		}
+/*End of icon */
+
+.img{
+	height: 300px;
+	width:70%;
+}		
+/*Paragraph*/
+.text{
+	display: flex;
+	text-align: justify;
+	text-justify:inter-word;
+	width: 100%
+}
+.text-1{
+	padding:8px;
+	display: flex 1;
+	width:30%;
+	background-color: rgba(0,0,0,0.1);
+}
+.text-1 h1{
+	padding:8px;
+	font-size: 36px;
+	font-family: Times New Roman;
+}
+.text-1 p{
+	padding:8px;
+	font-family: Times New Roman;
+	font-size: 30px;
+}
+
+.text-2{
+	padding:6px;
+	width: 70%;
+	display: flex 1;
+	background-color: rgba(0,0,0,0.1);
+}
+.text-2 h1{
+	padding:6px;
+	font-size: 40px;
+	font-family: Times New Roman;
+}
+.text-2 p{
+	padding: 6px;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
+/*End of Paragraph*/
+.li li{
+	font-family: Times New Roman;
+	font-size: 28px;
+	display: inline-flex;
+}
+
+/*footer part*/
+
+.footer
+	{
+	position: absolute;
+ 	width: 100%;
+ 	height: 250px;
+ 	margin-bottom: 10px;
+ 	background-color: rgba(0,0,0,0.6);
+   	display: flex;
+}
+
+.footer_1{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: left;
+
+}
+.footer_1 p{
+	padding: 20px 30px;
+}
+.footer_1 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+
+.footer_2 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+
+}
+
+.footer_2{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: left;
+	
+}
+.footer-2a
+{
+	flex: 1;
+	font-size: 12px;
+	font-family: times new roman;
+	text-align: justify;
+	
+}
+
+.footer_3{
+	flex: 1;
+	font-size: 18px;
+	font-family: times new roman;
+	text-align: center;
+}
+.footer_3 h1{
+	font-size: 28px;
+	font-family: times new roman;
+	text-align: center;
+}
+/*End of footer*/
+
+.End{
+	background-color: rgba(0,0,0,0.2);
+	position: relative;
+	bottom: -218px;
+	display:flex;
+	padding: 6px;
+}
+
+.End-1{
+	flex: 1;
+	padding: 6px;
+	font-size: 13px;
+	font-family: times new roman;
+	text-align: left;
+}
+.End-2{
+	flex: 1;
+	padding:6px;
+	font-family: times new roman;
+	font-size: 13px;
+	text-align: right;
+}
+/*End of footer Part*/
+
+</style>
+</head>
+<body>
+<header>
+	<div class="main">
+		<div class="head">
+			<h1>VISIT NEPAL</h1>
+		</div>
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>    
+		    <li><a href="#" class="drop">THINGS TO DO</a>
+		    		<ul>
+		    			<li><a href="Mounteering.html"> MOUNTEERING</a></li>
+		    			<li><a href="Treking.html"> TREKKING</a></li>
+		    			<li><a href="Zipline.html"> ZIP FLYING</a></li>
+		    			<li><a href="Mountain Biking.html"> MOUNTAIN BIKING</a></li>
+		    			<li><a href="Paragliding.html"> PARAGLIDING</a></li>
+		    			<li class="abc"><a href="Bungee.html"> BUNGEE JUMPING</a></li>
+		    		</ul>
+		    	</li>
+			<li><a href="Gallery.html">GALLERY</a></li>
+			<li><a href="Contact.html">CONTACT US</a></li>
+		<li><a href="#">ABOUT US</a>
+			<ul>
+			<li><a href="whys.html"> Where is Nepal?</a></li>
+			<li><a href="Culture.html"> Culture of Nepal</a></li>
+		</ul>
+</li>
+</ul>
+</div>
+</header>
+<!--End of header-->
+
+
+<div class="text">
+	<div class="text-1">
+		<br><br>
+	<h1><b><u> More Information</u></b></h1><br><br>
+	<div class="li">
+		<li><a href="More Information-3.html"><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i><b>Travel Information</b></a></li><br><br><br>
+		
+		<li><a href="More Information-4.html"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i> <b>When TO Travel</b></a></li><br><br><br>
+		<li><a href="More Information-5.html"><i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i> <b>Phone</b></a></li><br><br><br>
+		<li><a href="More Information-1.html"><i class="fa fa-money fa-lg fa-fw" aria-hidden="true"></i> <b>Payment Option</b></a></li><br><br><br>
+		<li><a href="More Information-2.html"><i class="fa fa-book fa-lg fa-fw" aria-hidden="true"></i> <b>Terms & Condition</b></a></li></b>
+	</div>
+</div>
+<div class="text-2">
+	<br><br>
+					<h1><b>Bungee Jumping</b></h1><hr><br>
+					<p>Adrenaline junkies have been coming to Nepal to experience this breathtaking and heart-pounding thrill of plunging off a suspension bridge above a river canyon. If you've got the courage it's the ultimate thrill few other activities can match and it's something that will stay with you forever. The thrill of a bungee jump can be experienced either at The Last Resort along the Arniko Highway or in the fascinating city of Pokhara.</p>
+
+					<p><img alt="" src="Bungee-1.jpg" style="height: 400px; width:100%"></p>
+
+					<p>The bungee jump at the Last Resort was designed by one of New Zealand’s leading bungee consultants, and is operated by some of the most experienced jump masters in the business. The jump takes place from a 166 m wide steel suspension bridge that joins two sides of a deep valley over the raging Bhote Koshi River. The place has spectacular scenery with dense forests covering the top of the cliff. One can overnight here and go rafting canyoning and rock climbing as well.</p>
+
+					<p><img alt="" src="Bungee-2.jpg" style="height: 400px; width:100%"></p>
+
+					<p>You can also go for a bungee jump at Hemja, Pokhara. This is Nepal's only tower bungee, high ground bungee and swing, offering various options of bungee jumping. Located just 20 minutes away from Pokhara Lakeside, the jump site offers a spellbinding view of the Himalayas, the hills and the rivers.</p><br><br>
+				</div>
+
+</div>
+<hr>
+<div id="wrapper">
+	<h1> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Support us on::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</h1><!--82::-->
+		<div class="box" id="facebook">&#62220;</div>
+		<div class="box" id="twitter">&#62217;</div>
+		<div class="box" id="gplus">&#62223;</div>
+		<div class="box" id="linkedin">&#62232;</div>
+</div>
+
+
+
+<div class="footer">
+	<div class="footer_1">
+		<h1><B><u>Get in touch</u></B></h1><hr>
+		<br>
+		<p><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>visitnepal.com.np<br>
+		<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i> Email: visitnepal00@gmail.com.np<br>
+		<i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i> Phone No.: +977-9849497787 <br>or +977-9849497717</p>
+		</div>
+			<div class="footer_2">
+					<h1><B><u>Quick link</u></B></h1><hr>
+					<p>
+					<br>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="Gallery.html">GALLERY</a><hr></li><br>
+					<div class="footer-2a">
+					OTHERS SERVICES:
+					<li><a href="Bungee.html">BUNGEE JUMPING</a></li>
+					<li><a href="Mountain Biking.html">MOUNTAIN BIKING</a></li>
+					<li><a href="Mounteering.html">MOUNTEERING</a></li>
+					<li><a href="Paragliding.html">PARAGLIDING</a></li>
+					<li><a href="Treking.html">TREKKING</a></li>
+					<li><a href="Zipline.html">ZIPLINE</a></li>
+				</div>
+					</p>
+					</div>
+					<div class="footer_3">
+						<h1><B><u>
+						Quick Message</u></B></h1><hr>
+						<label>
+						 <div align="center">
+    						<input type="text" name="textfield" size="15" style="font-size:10pt;" placeholder="First Name"/>
+	 						<input type="text" name="textfield2" size="15" style="font-size:10pt;" placeholder="Last Name"/>
+     						</div>
+     					</label><br>
+    						<div align="center">
+    						<input type="text" name="textfield3" size="15" style="font-size:10pt;" placeholder="Your Email"/>
+    						<input type="text" name="textfirld4" size="15" style="font-size:10pt;" placeholder="Your Number"/>
+    						</div><br>
+    				   	    <div align="center">
+								<textarea rows="3" cols="40" placeholder="Your Message">
+								</textarea>
+    						</div>
+    						 <form id="form2" name="form2" method="post" action="">
+ 								<div align="center">
+  							    <button id="button"><a href="Send.html">SEND</a></button>
+   								</div>
+ 							</form>
+					</div>
+				</div>
+<!--Ending part-->
+<div class="End">
+	<div class="End-1">
+	@2019. www.visitnepal.com, All Rights Reserved</div>
+	<div class="End-2"> Design & Developed by: Rakesh, Ritu and Roshan
+</div>
+</div>
+<!--End-->
+
+
+
+</body>
+</html>
